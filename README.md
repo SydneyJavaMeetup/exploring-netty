@@ -1,8 +1,8 @@
 # exploring-netty
 This is a repository for code demonstrated in a talk (or talks) on Netty (https://netty.io).
 
-#### Maven Dependency 
-When creating a project depending on Netty, you can grab the latest version number and Maven dependency info here:
+#### Creating a Netty Project 
+When creating a project depending on Netty, create a Maven project and grab the latest version of the Netty Maven dependency from here:
 http://netty.io/downloads.html
 e.g.
 ```$xml
@@ -12,3 +12,7 @@ e.g.
     <version>4.1.21.Final</version>
 </dependency>
 ```
+
+Take a look at a few of the examples here to see how to code a Netty server:
+
+Simple Sockets: [OllehWorld](https://github.com/SydneyJavaMeetup/exploring-netty/tree/master/src/main/java/com/meetup/sydney/java/ollehworld)
