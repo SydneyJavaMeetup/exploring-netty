@@ -15,4 +15,6 @@ e.g.
 
 Take a look at a few of the examples here to see how to code a Netty server:
 
-Simple Sockets: [OllehWorld](https://github.com/SydneyJavaMeetup/exploring-netty/tree/master/src/main/java/com/meetup/sydney/java/ollehworld)
+Socket Server: [OllehWorld](https://github.com/SydneyJavaMeetup/exploring-netty/tree/master/src/main/java/com/meetup/sydney/java/ollehworld)
+
+HTTP Server: [HelloHttpServer](https://github.com/SydneyJavaMeetup/exploring-netty/tree/master/src/main/java/com/meetup/sydney/java/hellohttpserver)

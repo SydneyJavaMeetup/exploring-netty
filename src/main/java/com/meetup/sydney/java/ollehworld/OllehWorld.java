@@ -15,7 +15,7 @@ import static io.netty.buffer.Unpooled.copiedBuffer;
  */
 public class OllehWorld {
     public static void main(String[] args) throws InterruptedException {
-        EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
+        EventLoopGroup eventLoopGroup = new NioEventLoopGroup(1);
         try {
             ServerBootstrap b = new ServerBootstrap()
                     .group(eventLoopGroup)
